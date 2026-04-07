@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>MovieHub</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+<h2>🎬 MovieHub</h2>
+
+<button id="homeBtn">Inicio</button>
+<button id="statsBtn">Estadísticas</button>
+
+</aside>
+
+<!-- MAIN -->
+<main>
+
+<header>
+<input id="searchInput" placeholder="Buscar películas...">
+</header>
+
+<div id="state"></div>
+
+<section id="posts"></section>
+
+<div id="pagination"></div>
+
+<!-- FORM -->
+<section id="formSection">
+<h3>Crear publicación</h3>
+<input id="titleInput" placeholder="Título">
+<textarea id="bodyInput"></textarea>
+<button id="createBtn">Publicar</button>
+</section>
+
+</main>
+
+</div>
+
+<script src="js/state.js"></script>
+<script src="js/api.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
