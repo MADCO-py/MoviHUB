@@ -39,6 +39,19 @@ margin:5px;
 color:red;
 cursor:pointer;
 }
+/* SEARCH */
+header{
+width:100%;
+max-width:600px;
+margin:20px;
+}
+
+#searchInput{
+width:100%;
+padding:10px;
+border-radius:20px;
+border:1px solid #ccc;
+}
 
 @media(max-width:768px){
 
