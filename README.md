@@ -61,3 +61,4 @@ Se incluye un video de demostración donde se muestran las funcionalidades princ
 
 Autores:
 Miguel Carranza
+Javier Alvizures
